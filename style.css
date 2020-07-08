@@ -1,3 +1,4 @@
+/* styled my navigation bar */
 .nav-bar {
     background-color: rgb(255, 255, 255);
     border-bottom: 3px solid #ffffff;
@@ -8,16 +9,15 @@
     text-align: center;
     width: 100%;
 }
-
-
+/* this is my about me header */
 h1 {
-    color: #8a50a5;
+    color: #bc9acc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-left: auto;
     margin-right: auto;
     padding: 20px 20px 0px 20px;
 }
-
+/* my about me */
 .aboutme {
     background-color: rgb(255, 255, 255);
     border: 4px solid #bc9acc;
@@ -33,11 +33,9 @@ h1 {
     margin-right: auto;
     padding: 10px;
     position: relative;
-    text-align: left;
-    
+    text-align: left; 
 }
-
-
+/* image */
 .image {
     float: left;
     margin-left: auto;
@@ -46,6 +44,7 @@ h1 {
     position: relative;
 }
 
+/* my paragraphs */
 .paraone, .paratwo, .parathree {
     color: rgb(165, 165, 165);
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -57,12 +56,23 @@ h1 {
     text-align: left;
 }
 
+.parafour {
+    color: rgb(165, 165, 165);
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    text-align: center;
+}
 
+/* footer styling */
 .footer {
-    background-color:rgb(165, 165, 165);
+    background-color:rgb(231, 231, 231);
     border-top: 4px solid #bc9acc;
     bottom: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 10px;
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0;
@@ -71,3 +81,4 @@ h1 {
     text-align: center;
     width: 100%;
 }
+
