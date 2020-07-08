@@ -1,24 +1,15 @@
-# portfolio-homework
-
-Nav Bar: 
-https://getbootstrap.com/docs/4.0/components/navbar/
-
-Hr Class:
-https://getbootstrap.com/docs/4.0/components/jumbotron/
-
-Link Colors:
-https://www.w3schools.com/html/html_links_colors.asp
-
-Background Cover: 
-https://www.w3schools.com/html/html_images_background.asp
-
-Form:
-https://www.w3schools.com/bootstrap/bootstrap_forms.asp
+# Updated Portfolio Homework
+My updated portfolio
+* Includes an About Me page
+* Contact Me page
+* Portfolio with 3 Assignments
+  * Each assignment has a repo link and a deployed link
 
 
-coding link
-https://github.com/donnaxnguyen/portfolio-homework
 
-deployed link
-https://donnaxnguyen.github.io/portfolio-homework/
+## Deployed Link
+* [https://donnaxnguyen.github.io/portfolio-homework/](#)
 
+
+## Authors
+* **Donna Nguyen** 
