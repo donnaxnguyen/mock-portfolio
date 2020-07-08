@@ -1,0 +1,73 @@
+.nav-bar {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid #ffffff;
+    float: right;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+h1 {
+    color: #8a50a5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 0px 20px;
+}
+
+.aboutme {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #bc9acc;
+    border-radius: 5px;
+    border-top: solid 4px #bc9acc;
+    box-sizing: content-box;
+    clear: right;
+    color: #FFF;
+    font-weight: normal;
+    height: 700px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+    
+}
+
+
+.image {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.paraone, .paratwo, .parathree {
+    color: rgb(165, 165, 165);
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    text-align: left;
+}
+
+
+.footer {
+    background-color:rgb(165, 165, 165);
+    border-top: 4px solid #bc9acc;
+    bottom: 0;
+    color: white;
+    font-size: 10px;
+    font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
