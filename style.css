@@ -1,4 +1,4 @@
-/* styled my navigation bar */
+/* styled my navigation bar, this will be the same in index.html , portfolio.html , and contact.html */
 .nav-bar {
     background-color: rgb(255, 255, 255);
     border-bottom: 3px solid #ffffff;
@@ -9,7 +9,7 @@
     text-align: center;
     width: 100%;
 }
-/* this is my about me header */
+/* this is my header that will be the same across all pages */
 h1 {
     color: #bc9acc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -17,7 +17,29 @@ h1 {
     margin-right: auto;
     padding: 20px 20px 0px 20px;
 }
-/* my about me */
+
+/* unvisited links will be light purple*/
+a:link {
+    color: #bc9acc;
+  }
+/* once clicked , the visited links will turn pink */
+  a:visited {
+    color: rgb(255, 177, 251);
+  }  
+/* when hovering, the links will turn grey */
+  a:hover {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+  }  
+/* when clicked, the links will turn light purple */
+  a:active {
+    color: #bc9acc;
+    text-decoration: none;
+  }
+
+
+
+/* my about me for my index.html */
 .aboutme {
     background-color: rgb(255, 255, 255);
     border: 4px solid #bc9acc;
@@ -26,6 +48,7 @@ h1 {
     box-sizing: content-box;
     clear: right;
     color: #FFF;
+    display: block;
     font-weight: normal;
     height: 700px;
     width: auto;
@@ -35,22 +58,25 @@ h1 {
     position: relative;
     text-align: left; 
 }
-/* image */
+
+/* image for index.html */
 .image {
     float: left;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     position: relative;
+    width: auto;
 }
 
-/* my paragraphs */
+/* my paragraphs for index.html */
 .paraone, .paratwo, .parathree {
     color: rgb(165, 165, 165);
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 15px;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
     padding: 0px 20px 0px 20px;
     position: relative;
     text-align: left;
@@ -65,20 +91,27 @@ h1 {
     padding: 0px 20px 0px 20px;
     position: relative;
     text-align: center;
+    width: auto;
 }
 
-/* footer styling */
-.footer {
-    background-color:rgb(231, 231, 231);
-    border-top: 4px solid #bc9acc;
-    bottom: 0;
-    color: rgb(0, 0, 0);
-    font-size: 10px;
+ 
+
+/* this is the container for my portfolio.html */
+.container {
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #bc9acc;
+    border-radius: 5px;
+    border-top: solid 4px #bc9acc;
+    box-sizing: content-box;
+    clear: right;
+    color: rgb(165, 165, 165);
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 0;
-    padding: 20px;
-    position: fixed;
-    text-align: center;
-    width: 100%;
-}
+    display: block;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    position: relative;
+    text-align: left;
+ }
 
