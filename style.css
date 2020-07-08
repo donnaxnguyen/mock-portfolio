@@ -18,6 +18,18 @@ h1 {
     padding: 20px 20px 0px 20px;
 }
 
+/* 
+/*
+/* 
+/*
+/* 
+/*
+
+/* this is to colorize my name on the navigation bar */
+a.navbar-brand {
+  color: rgb(255, 177, 251) !important;
+
+}
 /* unvisited links will be light purple*/
 a:link {
     color: #bc9acc;
@@ -37,7 +49,12 @@ a:link {
     text-decoration: none;
   }
 
-
+/* 
+/*
+/* 
+/*
+/* 
+/*
 
 /* my about me for my index.html */
 .aboutme {
@@ -96,6 +113,12 @@ a:link {
 
  
 
+/* 
+/*
+/* 
+/*
+/* 
+/*
 /* this is the container for my portfolio.html */
 .container {
     background-color: rgb(255, 255, 255);
@@ -115,3 +138,22 @@ a:link {
     text-align: left;
  }
 
+/* this is to center my links in my portfolio.html */
+ .col {
+   text-align: center;
+ }
+
+ /* this keeps my background image fixed */
+ body {
+  background-image: url('assets/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* 
+/*
+/* 
+/*
+/* 
+/*
